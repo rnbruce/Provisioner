@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+
+-<all>
+
+
+-<SipDSPs>
+
+<dsp CustomTone_Busy="" CustomTone_RingBack="" CustomTone_Dial="" InternalRingerFile9="Ring1" InternalRingerText9="" InternalRingerFile8="Ring1" InternalRingerText8="" InternalRingerFile7="Ring1" InternalRingerText7="" InternalRingerFile6="Ring1" InternalRingerText6="" InternalRingerFile5="Ring1" InternalRingerText5="" InternalRingerFile4="Ring1" InternalRingerText4="" InternalRingerFile3="Ring1" InternalRingerText3="" InternalRingerFile2="Ring1" InternalRingerText2="" InternalRingerFile1="Ring1" InternalRingerText1="" InternalRingerFile0="Ring1" InternalRingerText0="" SideTone="0" NormalDelay="120" MaxDelay="500" MinDelay="60" JITTERBUFFER="0" ToneCountry="1" disableCode9="" disableCode8="" disableCode7="" disableCode6="" disableCode5="" disableCode4="" disableCode3="" disableCode2="" disableCode1="G726_32" disableCode0="iLBC" enableCode8="" enableCode7="" enableCode6="" enableCode5="" enableCode4="G723" enableCode3="G729" enableCode2="G711A" enableCode1="G722" enableCode0="G711U" CurrentRingName="Ring1" ringfileName9="" ringfileName8="" ringfileName7="" ringfileName6="" ringfileName5="" ringfileName4="" ringfileName3="" ringfileName2="" ringfileName1="" ringfileName0="" VoEnableVAD="0" HighG723="1" VoEnableAGC="0" VoEnableAEC="0" HandFreeOutputVoice="3" HandFreeInputVoice="7" RTPsize="1" DiallingTone="1" RingTypeVoice="3" EarphoneOutputVoice="3" EarphoneInputVoice="5" HandOutputVoice="3" HandInputVoice="5" CodecType8="255" CodecType7="255" CodecType6="255" CodecType5="255" CodecType4="2" CodecType3="3" CodecType2="0" CodecType1="4" CodecType="1" EchoSuppression="0"/>
+
+</SipDSPs>
+
+
+-<pnps>
+
+<pnp autoUpgrade="0" autoContract="0" autoConfig="0" key="" address="" mode="0" ReportLocalIP="*99" UsePnPFlag="0" AutoUpVersionFlag="1" AutoGainBasicFlag="1"/>
+
+</pnps>
+
+
+-<Privisions>
+
+<privision WaitTime="10" ZeroActive="0" PNPInterval="0" PNPPIN="" PNP="1" DownloadFilename="0" BootingcheckedMode="0" ExtensionNumber="" Bootingchecked="1" DownloadExtension="0" DownloadPersonPhonebook="0" DownloadPhonebook="0" DownloadKernel="0" DownloadFirmwar="1" DownloadBroadsoft="0" Downloadconfig="0" password="" username="" DHCPOptionValue="66" Firmware="172.18.10.133" protocol="0" time="24" Freqency="168" DHCPOptionFlag="1" AutoPrivisionFlag="1"/>
+
+</Privisions>
+
+
+-<Cwmps>
+
+<cwmp password="" username="" protocol="3" freqency="3600" Periodic="0" HttpsPort="443" Port="80" CwmpHost="https://tms.ctcims.cn" SerialNumber="00100400YJ012050000000268b02daa8" CwmpEveryReboot="0" CwmpConfigFlag="0"/>
+
+</Cwmps>
+
+
+-<Networks>
+
+<network UserClassInformation="" Manufacturer="" Hostname="" AutoGetDNS="0" WebPort="80" MTU="1500" UsrName="" UsrKey="" SubnetMask="255.255.255.0" SecondDNS="172.18.10.170" IPDNS="172.18.10.171" IPAddress="172.18.10.172" NetConfigType="0" DefaultGateways="172.18.10.1"/>
+
+<newTelnet TelnetEnable="1" TelnetPort="23"/>
+
+</Networks>
+
+
+-<Pagings>
+
+<paging PagingGroupPortFive="10000" PagingDomainFive="" PagingEnableFive="0" PagingGroupPortFour="10000" PagingDomainFour="" PagingEnableFour="0" PagingGroupPortThree="10000" PagingDomainThree="" PagingEnableThree="0" PagingGroupPortTwo="10000" PagingDomainTwo="" PagingEnableTwo="0" PagingGroupPortOne="10000" PagingDomainOne="" PagingEnableOne="0"/>
+
+</Pagings>
+
+
+-<NATs>
+
+<nat DHCPEndAddress="" DHCPStartAddress="" DHCPServerEnable="0" PCPortIPMask="" PCPortIPAddress="" PCPortMode="0"/>
+
+</NATs>
+
+
+-<Proxys>
+
+<proxy Password="" Username="" ProxyServerDomain="" AnonymousLogin="1" ProxyServerPort="1080" ProxyServerEnable="0"/>
+
+</Proxys>
+
+
+-<sipServers>
+
+<sipserver SipSessionTimeT4="5" SipSessionTimeT2="4" SipSessionTimeT1="0.5" P-Asserted-Identity="1" AffiliatedPortEnable="1" SubExpire="3600" Qos="40" EndPort="10128" BeginPort="10001" LinkUse="0" LocalPort="5860" SipRefreshTime="3600" STUNEnableFlag="0" STUNAddress="" SecondDomainName="" ProxyServerAddress="" DomainName=""/>
+
+</sipServers>
+
+
+-<syss>
+
+<sys StatusLightEnable="0" CallerNoAnswerTimeEnable="1" CallerNoAnswerTime="180" PhonebookSearch="0" voicemailToneEnable="0" PoundSendType="0" voicemail="0" EmbeddedUrl="" EmbeddedFreqency="300" EmbeddedMode="0" waitPicturePath2="" waitPicturePath1="" idlePicturePath="" startPicturePath="" pictureType="0" PstnRingType="1" NetworkPacket="0" UpgradeCheck="1" NoAnswerTimeEnable="1" NoAnswerTime="70" MaxConnectTime="30" FirstDialTime="15" KeyboardEncrypt="0" KeyboardPasswd=""/>
+
+</syss>
+
+
+-<DTMEFs>
+
+<DTMF SIPInfoReSend="0" RFC2833CodeId="101" DTMFShowSendType="0" DTMFSendType="0"/>
+
+</DTMEFs>
+
+
+-<calls>
+
+<call LLDPInterval="60" LLDP="0" CallerIDSource="1" SIP100RelEnable="1" ConferenceNum="" ConferenceWay="0" SuppressDTMFDisplay="0" HoldPlayToneFreqency="30" HoldPlayToneEnable="1" FlashHookTime="500" FlashHookEnable="0" ReturnCodeWhenDND="0" ReturnCodeWhenRefuse="0" PlaycallwaitingToneFreqency="10" ConfEndMethod="0" PickupEnable="1" RingFrequency="15" UnAnswerNum="" UnAnswer="0" busytransferNum="" busytransfer="0" UnconditionalNum="" Unconditional="0" forktime="500" forkEnableFlag="1" RTPQos="46" SIPQos="26" AvoidDisturbEnableFlag="0" BLFTransferMode="0" BLFTransferEnable="0" CallListSaveEnable="1" DNDSoftkeyEnable="1" MisscallDisEnable="1" CallBusyTone="1" AutoAnswerMode="0" AutoAnswerEnableGroupName="" AutoAnswerEnableFlag="0" ShowPhonelistWay="0" ShowPhonelist="1" AfterTurnType="0" PlaycallwaitingTone="1" callwaiting="1" CallLeaveMessageNum="*97" AutoAnswerNum="123" PrefixVOIPNum="" PrefixPSTNNum=""/>
+
+</calls>
+
+
+-<SysTimes>
+
+<systime UpdateInterval="600" Offset="60" DSTWeekEndHour="23" DSTWeekEndInMonth="5" DSTWeekEndWeek="6" DSTWeekEndMonth="12" DSTWeekStartHour="0" DSTWeekStartInMonth="1" DSTWeekStartWeek="0" DSTWeekStartMonth="1" DSTEndHour="23" DSTEndDay="31" DSTEndMonth="12" DSTStartHour="0" DSTStartDay="1" DSTStartMonth="1" DSTtype="0" AutoAddressBackup="0" AutoAddress="0" MouthSet="9" YearSet="2015" SecondSet="51" MinuteSet="35" HourSet="2" DaySet="8" TimeZoneType="20" SNTPEnableFlag="1" DaylightSaveingFlag="0" SNTPAddressBackup="www.time.ac.cn" SNTPAddress="sparky.services.adelaide.edu.au"/>
+
+</SysTimes>
+
+
+-<FunCodes>
+
+<CallFun HoldCodeNum="" HoldCodeEnable="0" ConferenceCodeNum="" ConferenceCodeEnable="0" TransferCodeNum="" TransferCodeEnable="0" CallWaitFC="" CallBackFC=""/>
+
+</FunCodes>
+
+
+-<RouteGoals>
+
+<route IPStrategyEnable="0" DialOutMaxTime="5" DialOutFlag="0" DialOutButton="1" DialNumLength="25"/>
+
+</RouteGoals>
+
+<RouteTabs/>
+
+<BlackTabs/>
+
+<WhiteTabs/>
+
+
+-<logs>
+
+<log LogServerPort="514" LogServerEnable="0" LogServerAddress="" LogType="1" LogSave="0" LogCallGrade="0"/>
+
+</logs>
+
+
+-<hotlineBLFs>
+
+<hotlineBLF BLF="1"/>
+
+</hotlineBLFs>
+
+
+-<lcds>
+
+<lcd Password="" AvoidDisturbEnableFlag="0" Emergency="112,911,110" PhoneUnlockPIN="" PhoneLockTimeOut="0" LockKeys="0" DateFormat="0" LockScreenTime="60" LockScreenMode="0" LockScreenEnable="0" lockScreenPassword="1234" ScreenSaverEnable="0" Contrast="3" ScreenTime="60" CloseLightTime="60" TouchScreen="0" TimeListSeparator="0" TimeFormat="0" BackLightEnableFlag="0" ScreenLightEnableFlag="1" NoSoundEnableFlag="0" Light="3" WebLanguage="1" Language="1"/>
+
+</lcds>
+
+
+-<passwords>
+
+<password UsrName="root" Password="root" type="66" UserPassword="user" User="user"/>
+
+</passwords>
+
+
+-<HotLineFuns>
+
+<HotLineFun DelayTime="0" HotLineNum="" HotLineState="0"/>
+
+</HotLineFuns>
+
+
+-<LDAPs>
+
+<ldap Password="" LDAPEnable="0" PreDial_Dial="0" Results="1" call="1" Deslay="0" Protocol="3" Number_Attribites3="" Number_Attribites2="" Number_Attribites1="" Name_Attribites3="" Name_Attribites2="" Name_Attribites1="" MaxHit="50" UserName="" Base="" Com="389" Address="0.0.0.0" LDAPNumber="" LDAPName="" id="0"/>
+
+<ldap Password="" LDAPEnable="0" PreDial_Dial="0" Results="1" call="1" Deslay="0" Protocol="3" Number_Attribites3="" Number_Attribites2="" Number_Attribites1="" Name_Attribites3="" Name_Attribites2="" Name_Attribites1="" MaxHit="50" UserName="" Base="" Com="389" Address="0.0.0.0" LDAPNumber="" LDAPName="" id="1"/>
+
+</LDAPs>
+
+
+-<sipUsers>
+
+<sipUser Password="123abc" LinkUse="0" STUNEnableFlag="0" STUNAddress="stun3.3cx.com" SecondDomainName="" ProxyServerAddress="" DomainName="172.18.10.11:5860" ConferenceNum="" ConferenceWay="0" CallLeaveMessageNum="*97" UserName="" id="0" RPortEnable="0" EPPOutcodeLength="0" EPPOutcode="" EPPOutcodeEnable="0" ServerType="0" UserSessionTimerRefresher="0" UserphoneEnable="0" SessionTimerRefresher="0" AutoAnsEnableFlag="0" ProxyEnableFlag="0" AnonymousCallReject="0" KeepaliveInterval="30" KeepaliveEnable="0" RingFilename="" RegisteredNAT="1" DNSSRVEnable="0" AllowEventsEnable="0" SessionTimer="300" UserSessionTimerEnable="0" AnonymousCall="0" BLANum="" BLAEnableFlag="0" RegisterMethod="0" AccountMode="0" EnableAccount="1" RTPEND="10128" RTPBegin="10000" approveName="" SupportNumber="8" PossessNumber="2" flag="0" UserNumber="221" Subscribe="1800" RefreshTime="3600" PollingRegistrationTime="32" SecondProxyServerAddress="" Describe=""/>
+
+<sipUser Password="" LinkUse="0" STUNEnableFlag="0" STUNAddress="" SecondDomainName="" ProxyServerAddress="" DomainName="" ConferenceNum="" ConferenceWay="0" CallLeaveMessageNum="*97" UserName="" id="1" RPortEnable="0" EPPOutcodeLength="" EPPOutcode="" EPPOutcodeEnable="0" ServerType="0" UserSessionTimerRefresher="0" UserphoneEnable="0" SessionTimerRefresher="0" AutoAnsEnableFlag="0" ProxyEnableFlag="0" AnonymousCallReject="0" KeepaliveInterval="30" KeepaliveEnable="0" RingFilename="" RegisteredNAT="1" DNSSRVEnable="0" AllowEventsEnable="0" SessionTimer="300" UserSessionTimerEnable="0" AnonymousCall="0" BLANum="" BLAEnableFlag="0" RegisterMethod="0" AccountMode="0" EnableAccount="0" RTPEND="10128" RTPBegin="10000" approveName="" SupportNumber="8" PossessNumber="2" flag="0" UserNumber="" Subscribe="1800" RefreshTime="3600" PollingRegistrationTime="32" SecondProxyServerAddress="" Describe=""/>
+
+<sipUser Password="" LinkUse="0" STUNEnableFlag="0" STUNAddress="" SecondDomainName="" ProxyServerAddress="" DomainName="" ConferenceNum="" ConferenceWay="0" CallLeaveMessageNum="*97" UserName="PSTN" id="2" RPortEnable="0" EPPOutcodeLength="" EPPOutcode="" EPPOutcodeEnable="0" ServerType="0" UserSessionTimerRefresher="0" UserphoneEnable="0" SessionTimerRefresher="0" AutoAnsEnableFlag="0" ProxyEnableFlag="0" AnonymousCallReject="0" KeepaliveInterval="30" KeepaliveEnable="0" RingFilename="" RegisteredNAT="1" DNSSRVEnable="0" AllowEventsEnable="0" SessionTimer="300" UserSessionTimerEnable="0" AnonymousCall="0" BLANum="" BLAEnableFlag="0" RegisterMethod="0" AccountMode="0" EnableAccount="0" RTPEND="10128" RTPBegin="10000" approveName="" SupportNumber="0" PossessNumber="1" flag="0" UserNumber="PSTN" Subscribe="1800" RefreshTime="3600" PollingRegistrationTime="32" SecondProxyServerAddress="" Describe="PSTN"/>
+
+<sipUser Password="123abc!" LinkUse="0" STUNEnableFlag="0" STUNAddress="" SecondDomainName="" ProxyServerAddress="172.18.10.171" DomainName="172.18.10.171" ConferenceNum="" ConferenceWay="0" CallLeaveMessageNum="*97" UserName="225" id="3" RPortEnable="0" EPPOutcodeLength="0" EPPOutcode="" EPPOutcodeEnable="0" ServerType="0" UserSessionTimerRefresher="0" UserphoneEnable="0" SessionTimerRefresher="0" AutoAnsEnableFlag="0" ProxyEnableFlag="0" AnonymousCallReject="0" KeepaliveInterval="30" KeepaliveEnable="0" RingFilename="" RegisteredNAT="1" DNSSRVEnable="0" AllowEventsEnable="0" SessionTimer="300" UserSessionTimerEnable="0" AnonymousCall="0" BLANum="" BLAEnableFlag="0" RegisterMethod="0" AccountMode="0" EnableAccount="1" RTPEND="10128" RTPBegin="10000" approveName="225" SupportNumber="0" PossessNumber="2" flag="0" UserNumber="225" Subscribe="1800" RefreshTime="3600" PollingRegistrationTime="32" SecondProxyServerAddress="" Describe=""/>
+
+<sipUser Password="" LinkUse="0" STUNEnableFlag="0" STUNAddress="" SecondDomainName="" ProxyServerAddress="" DomainName="" ConferenceNum="" ConferenceWay="0" CallLeaveMessageNum="*97" UserName="" id="4" RPortEnable="0" EPPOutcodeLength="" EPPOutcode="" EPPOutcodeEnable="0" ServerType="0" UserSessionTimerRefresher="0" UserphoneEnable="0" SessionTimerRefresher="0" AutoAnsEnableFlag="0" ProxyEnableFlag="0" AnonymousCallReject="0" KeepaliveInterval="30" KeepaliveEnable="0" RingFilename="" RegisteredNAT="1" DNSSRVEnable="0" AllowEventsEnable="0" SessionTimer="300" UserSessionTimerEnable="0" AnonymousCall="0" BLANum="" BLAEnableFlag="0" RegisterMethod="0" AccountMode="0" EnableAccount="0" RTPEND="10128" RTPBegin="10000" approveName="" SupportNumber="8" PossessNumber="2" flag="0" UserNumber="" Subscribe="1800" RefreshTime="3600" PollingRegistrationTime="32" SecondProxyServerAddress="" Describe=""/>
+
+<sipUser Password="" LinkUse="0" STUNEnableFlag="0" STUNAddress="" SecondDomainName="" ProxyServerAddress="" DomainName="" ConferenceNum="" ConferenceWay="0" CallLeaveMessageNum="*97" UserName="" id="5" RPortEnable="0" EPPOutcodeLength="" EPPOutcode="" EPPOutcodeEnable="0" ServerType="0" UserSessionTimerRefresher="0" UserphoneEnable="0" SessionTimerRefresher="0" AutoAnsEnableFlag="0" ProxyEnableFlag="0" AnonymousCallReject="0" KeepaliveInterval="30" KeepaliveEnable="0" RingFilename="" RegisteredNAT="1" DNSSRVEnable="0" AllowEventsEnable="0" SessionTimer="300" UserSessionTimerEnable="0" AnonymousCall="0" BLANum="" BLAEnableFlag="0" RegisterMethod="0" AccountMode="0" EnableAccount="0" RTPEND="10128" RTPBegin="10000" approveName="" SupportNumber="8" PossessNumber="2" flag="0" UserNumber="" Subscribe="1800" RefreshTime="3600" PollingRegistrationTime="32" SecondProxyServerAddress="" Describe=""/>
+
+<sipUser Password="1234" LinkUse="0" STUNEnableFlag="0" STUNAddress="" SecondDomainName="" ProxyServerAddress="172.18.10.170" DomainName="172.18.10.170" ConferenceNum="" ConferenceWay="0" CallLeaveMessageNum="*97" UserName="Analog" id="6" RPortEnable="0" EPPOutcodeLength="0" EPPOutcode="" EPPOutcodeEnable="0" ServerType="0" UserSessionTimerRefresher="0" UserphoneEnable="1" SessionTimerRefresher="0" AutoAnsEnableFlag="0" ProxyEnableFlag="0" AnonymousCallReject="0" KeepaliveInterval="30" KeepaliveEnable="0" RingFilename="" RegisteredNAT="1" DNSSRVEnable="0" AllowEventsEnable="0" SessionTimer="300" UserSessionTimerEnable="0" AnonymousCall="1" BLANum="" BLAEnableFlag="0" RegisterMethod="0" AccountMode="0" EnableAccount="1" RTPEND="10128" RTPBegin="10000" approveName="333" SupportNumber="0" PossessNumber="1" flag="0" UserNumber="333" Subscribe="1800" RefreshTime="3600" PollingRegistrationTime="32" SecondProxyServerAddress="" Describe="333"/>
+
+<sipUser Password="" LinkUse="0" STUNEnableFlag="0" STUNAddress="" SecondDomainName="" ProxyServerAddress="" DomainName="" ConferenceNum="" ConferenceWay="0" CallLeaveMessageNum="*97" UserName="PSTN" id="7" RPortEnable="0" EPPOutcodeLength="0" EPPOutcode="" EPPOutcodeEnable="0" ServerType="0" UserSessionTimerRefresher="0" UserphoneEnable="0" SessionTimerRefresher="0" AutoAnsEnableFlag="0" ProxyEnableFlag="0" AnonymousCallReject="0" KeepaliveInterval="30" KeepaliveEnable="0" RingFilename="" RegisteredNAT="1" DNSSRVEnable="0" AllowEventsEnable="0" SessionTimer="300" UserSessionTimerEnable="0" AnonymousCall="0" BLANum="" BLAEnableFlag="0" RegisterMethod="0" AccountMode="0" EnableAccount="0" RTPEND="10128" RTPBegin="10000" approveName="" SupportNumber="0" PossessNumber="1" flag="0" UserNumber="PSTN" Subscribe="1800" RefreshTime="3600" PollingRegistrationTime="32" SecondProxyServerAddress="" Describe="PSTN"/>
+
+</sipUsers>
+
+
+-<SipEncrys>
+
+<SipEncry id="0" SRTPEncryption="0" SignalingEncryption="0" RTPEncryption="0" FaxEncryption="0" EncryptionType="0" EncryptionNum=""/>
+
+<SipEncry id="1" SRTPEncryption="0" SignalingEncryption="0" RTPEncryption="0" FaxEncryption="0" EncryptionType="0" EncryptionNum=""/>
+
+<SipEncry id="2" SRTPEncryption="0" SignalingEncryption="0" RTPEncryption="0" FaxEncryption="0" EncryptionType="0" EncryptionNum=""/>
+
+<SipEncry id="3" SRTPEncryption="0" SignalingEncryption="0" RTPEncryption="0" FaxEncryption="0" EncryptionType="0" EncryptionNum=""/>
+
+<SipEncry id="4" SRTPEncryption="0" SignalingEncryption="0" RTPEncryption="0" FaxEncryption="0" EncryptionType="0" EncryptionNum=""/>
+
+<SipEncry id="5" SRTPEncryption="0" SignalingEncryption="0" RTPEncryption="0" FaxEncryption="0" EncryptionType="0" EncryptionNum=""/>
+
+<SipEncry id="6" SRTPEncryption="0" SignalingEncryption="0" RTPEncryption="0" FaxEncryption="0" EncryptionType="0" EncryptionNum=""/>
+
+<SipEncry id="7" SRTPEncryption="0" SignalingEncryption="0" RTPEncryption="0" FaxEncryption="0" EncryptionType="0" EncryptionNum=""/>
+
+</SipEncrys>
+
+
+-<modes>
+
+<mode RingMode="0" Headphonesmode="0"/>
+
+</modes>
+
+
+-<VPNs>
+
+<VPN Type="0" Enable="0" VPNServer="" VPNUserPassword="" VPNUserName=""/>
+
+</VPNs>
+
+
+-<VLANs>
+
+<Vlan PCPriority="0" LocalPriority="0" PCVID="0" LocalVID="0" PCEnableVlan="0" LocalEnableVlan="0"/>
+
+</VLANs>
+
+
+-<E8021xs>
+
+<E8021x Password="" Device_Cert="" CA_Cert="onex.cer" Identity="" c8021xType="0"/>
+
+</E8021xs>
+
+
+-<BlueTooths>
+
+<bluetooth MAC="" Name="" ConnectAllEnable="0" Visiable="0" AutoConnectEnable="0"/>
+
+</BlueTooths>
+
+
+-<MultiMedias>
+
+<MultiMedia Password="root" GroupName="" CfgMode="0" RoamingPort="60004" RoamingAddr="67.229.238.66" OpenDoorPwd="" DoorbellCode="" OutCodeLen="0" OutCode="" EnableMultiMedia="2"/>
+
+</MultiMedias>
+
+</all>
